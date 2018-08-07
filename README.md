@@ -1,7 +1,10 @@
 # AptitudeCraker
 Android Application wherein a user can practise Aptitude test consisting of topis: Quantitaitve, Logical and Verbal.
 
-#Screenshots
+To Do:
+Just change the server URls and edit the database details 
+
+Screenshots
 
 ![image](https://user-images.githubusercontent.com/17126310/43787425-9169938c-9a88-11e8-912f-f57c77b86bd4.png)  ![image](https://user-images.githubusercontent.com/17126310/43787447-9f721986-9a88-11e8-878c-53abfe8d1b7c.png)
 
