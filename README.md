@@ -2,7 +2,7 @@
 Android Application wherein a user can practise Aptitude test consisting of topis: Quantitaitve, Logical and Verbal.
 
 To Do:
-Just change the server URls and edit the database details 
+Just change the server URLs and edit the database details 
 
 Screenshots
 
