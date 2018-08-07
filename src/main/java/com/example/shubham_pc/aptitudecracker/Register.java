@@ -34,7 +34,7 @@ public class Register extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        final String SEND_URL = "http://aptitudecracker.000webhostapp.com/register.php";
+        final String SEND_URL = "http://<Your-Website>/register.php";
 
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#e3e0cf")));
