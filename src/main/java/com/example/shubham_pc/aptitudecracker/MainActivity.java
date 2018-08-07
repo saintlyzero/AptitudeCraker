@@ -39,7 +39,7 @@ import java.util.List;
 import java.util.Map;
 
 public class MainActivity extends AppCompatActivity {
-    private static final String SEND_URL1 = "http://aptitudecracker.000webhostapp.com/maths_getData.php";
+    private static final String SEND_URL1 = "http://<Your-Website>/maths_getData.php";
     RecyclerView recyclerView;
     List<Question> questionList;
     RadioGroup radioGroup;
@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity {
         newLogicalLevel = levelGenerator(currentLogicalLevel, logicalScore);
 
 
-        String SEND_URL1 = "http://aptitudecracker.000webhostapp.com/updateAll.php";
+        String SEND_URL1 = "http://<Your-Website>/updateAll.php";
 
         StringRequest stringRequest1 = new StringRequest(Request.Method.POST, SEND_URL1, new Response.Listener<String>() {
             @Override
