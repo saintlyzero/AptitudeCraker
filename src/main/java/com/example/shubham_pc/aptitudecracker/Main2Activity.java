@@ -50,7 +50,7 @@ public class Main2Activity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        String SEND_URL1 = "http://aptitudecracker.000webhostapp.com/maths_getData.php";
+        String SEND_URL1 = "http://<Your-Website>/maths_getData.php";
         ActionBar actionBar = getSupportActionBar();
         actionBar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#e9ece5")));
 
