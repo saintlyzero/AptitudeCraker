@@ -86,7 +86,7 @@ public class Login extends AppCompatActivity {
                 password = et_pass.getText().toString();
 
                 if (username.length() > 1 && password.length() > 1) {
-                    String SEND_URL = "http://aptitudecracker.000webhostapp.com/login.php";
+                    String SEND_URL = "http://<Your-Website>/login.php";
 
                     StringRequest stringRequest = new StringRequest(Request.Method.POST, SEND_URL, new Response.Listener<String>() {
                         @Override
