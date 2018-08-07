@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bcd5d1"
+    tools:context="com.example.shubham_pc.aptitudecracker.MainActivity">
+
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="Score: 10/15"
+        android:textColor="#ffffff"
+        android:textColorHighlight="#000000"
+        android:textSize="25sp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recylcerView"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:layout_below="@+id/score"
+        android:background="#bcd5d1"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+</RelativeLayout>

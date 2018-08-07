@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/logout"
+        android:title="Logout"></item>
+    <item
+        android:id="@+id/reload"
+        android:title="Try Again?"></item>
+
+    <item
+        android:id="@+id/statistics"
+        android:title="Statistics">
+
+    </item>
+
+
+</menu>
