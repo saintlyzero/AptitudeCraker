@@ -1,0 +1,62 @@
+Tables :-
+--------------------------------------------------------------
+
+logical
+qid (integer)
+question (Varchar2)
+opt1 (Varchar2)
+opt2 (Varchar2)
+opt3 (Varchar2)
+opt4 (Varchar2)
+answer (Varchar2)
+level (integer)
+
+maths
+qid (integer)
+question (Varchar2)
+opt1 (Varchar2)
+opt2 (Varchar2)
+opt3 (Varchar2)
+opt4 (Varchar2)
+answer (Varchar2)
+level (integer)
+
+verbal
+qid (integer)
+question (Varchar2)
+opt1 (Varchar2)
+opt2 (Varchar2)
+opt3 (Varchar2)
+opt4 (Varchar2)
+answer (Varchar2)
+level (integer)
+
+
+user
+user_id (Integer)
+name (Varchar2)
+username (Varchar2)
+password (Varchar2)
+maths_level (integer)
+verbal_level (integer)
+logical_level (integer)
+
+user_performance
+id (Integer)
+username (Varchar2)
+time_stamp (Varchar2)
+maths_correct(Integer)
+verbal_correct(Integer)
+logical_correct(Integer)
+
+
+user_track
+id (Integer)
+username (Varchar2)
+maths_qid(Integer)
+verbal_qid(Integer)
+logical_qid(Integer)
+maths_level(Integer)
+verbal_level(Integer)
+logical_level(Integer)
+
