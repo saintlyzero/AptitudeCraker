@@ -1,3 +1,4 @@
+
 <?php
 $servername = "<Enter your details>";
 $username = "<Enter your details>";
@@ -7,7 +8,10 @@ $dbname = "<Enter your details>";
 $conn = new mysqli($servername, $username, $password, $dbname);
 
 	if($_SERVER['REQUEST_METHOD']=='POST'){
-		
+		/*
+		Getting password as a String is not a good practise.
+		Instead compute the Hash of the password and use that for comparing.
+		*/
 		$username=$_POST['username'];
 		$password=$_POST['password'];
 
