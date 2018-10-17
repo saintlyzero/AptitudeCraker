@@ -24,7 +24,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
     echo $row["name"];
 }
 } else {
-echo "-1";
+echo "-1"; // Indicates invalid details
 }
 						
 }	
